@@ -23,16 +23,17 @@ export function fightDragon() {
 
 
 
-  // export function buyHealth() {
-  //   if (gold >= 10) {
-  //     gold -= 10;
-  //     health += 10;
-  //     goldText.innerText = gold;
-  //     healthText.innerText = health;
-  //   } else {
-  //     text.innerText = "You do not have enough gold to buy health.";
-  //   }
-  // }
+  export function buyHealth(gold, health) {
+    if (gold >= 10) {
+      gold -= 10;
+      health += 10;
+      return gold, health
+      // goldText.innerText = gold;
+      // healthText.innerText = health;
+    } else {
+      return "You do not have enough gold to buy health.";
+    }
+  }
   
 //  export function buyWeapon() {
 //     if (currentWeapon < weapons.length - 1) {
