@@ -1,4 +1,4 @@
-import { locations } from "../data/data"
+import { locations } from "../data/data.js"
 
 
 const Text = (local) => {

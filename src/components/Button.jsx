@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { locations } from "../data/data"
+import { locations } from "../data/data.js"
 
 // eslint-disable-next-line react/prop-types
 function Button({getLocal}) {

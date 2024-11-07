@@ -1,4 +1,4 @@
-import { goCave, goStore, fightDragon, goTown } from "../helpers/movies";
+import { goCave, goStore, fightDragon, goTown } from "../helpers/movies.js";
 
 export const weapons = [
     { name: 'stick', power: 5 },
