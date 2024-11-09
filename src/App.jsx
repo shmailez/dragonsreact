@@ -22,8 +22,6 @@ function App() {
     setLocal(l)
   }
 
-  
-
   return (
     
       <>
